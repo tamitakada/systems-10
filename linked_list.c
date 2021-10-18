@@ -32,6 +32,10 @@ struct cat * free_list(struct cat *c) {
     return c;
 }
 
+struct cat * remove_node(struct cat *front, int data) {
+  
+}
+
 void populate_random_arr(char *arr, int len) {
     int i;
     for (i = 0; i < len; i++) {
